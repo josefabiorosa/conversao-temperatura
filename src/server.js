@@ -11,7 +11,7 @@ app.use('/', config.routers);
 app.use(bodyParser.urlencoded({ extended: false }))
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-
+//teste
 app.get('/fahrenheit/:valor/celsius', (req, res) => {
 
     let valor = req.params.valor;
