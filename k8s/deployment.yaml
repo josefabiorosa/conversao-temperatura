@@ -30,9 +30,9 @@ spec:
   type: NodePort
   ports:
     - name: http
-      port: 8080
-      targetPort: 8181
+      port: 80
+      targetPort: 8080
       protocol: TCP
-      nodePort: 31000
+      nodePort: 30000
 
 
