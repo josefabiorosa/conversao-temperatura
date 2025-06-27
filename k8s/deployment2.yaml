@@ -23,10 +23,10 @@ spec:
 apiVersion: v1 
 kind: Service
 metadata: 
-  name: conversaotemperatura
+  name: conversaotemperatura2
 spec: 
   selector:
-    app: conversaotemperatura
+    app: conversaotemperatura2
   type: NodePort
   ports:
     - name: http
